@@ -16,3 +16,4 @@ void TriangleEquilateral::afficherCaracteristiques(void){
     cout << "-------------" << endl;
     cout << "Longueur : " << m_longueur << endl;
     cout << "Perimetre : " << perimetre() << endl << endl;
+}

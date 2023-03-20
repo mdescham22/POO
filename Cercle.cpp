@@ -15,6 +15,6 @@ void Cercle::afficherCaracteristiques(void){
     cout << "Classe Cercle " << endl;
     cout << "-------------" << endl;
     cout << "Rayon : " << m_rayon << endl;
-    cout << "Perimetre :" << perimetre() << endl << endl;;
+    cout << "Perimetre :" << perimetre() << endl << endl;
     
 }
