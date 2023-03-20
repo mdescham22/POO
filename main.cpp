@@ -5,6 +5,9 @@ using namespace std;
 
 int main(void)
 {
-    test();
+    Figure* figure;
+    figure = test();
+    figure->nbFigure();
+    
     return 1;
 }

@@ -3,7 +3,10 @@
 using namespace std;
 
 //////////Constucteur////////
-Cercle::Cercle(int r):m_rayon(r)
+Cercle::Cercle(int r):Coloriable(0),m_rayon(r)
+{}
+
+Cercle::Cercle(string coul, int r):Coloriable(coul),m_rayon(r)
 {}
 
 //////////Methode////////

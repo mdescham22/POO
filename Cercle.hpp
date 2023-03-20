@@ -2,10 +2,11 @@
 #define DEF_CERCLE
 
 #include "Figure.hpp"
+#include "Coloriable.hpp"
 
 #define pi 3.1415
 
-class Cercle : public Figure
+class Cercle : public Figure, public Coloriable
 {
     public:
     
@@ -13,6 +14,7 @@ class Cercle : public Figure
     virtual void afficherCaracteristiques();
     
     Cercle(int r);
+    Cercle(string coul, int r);
 
     protected:
 

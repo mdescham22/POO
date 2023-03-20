@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int test(void)
+Figure* test(void)
 {
     
     vector<Figure *> listeFigure;
@@ -15,5 +15,5 @@ int test(void)
         listeFigure[i]->afficherCaracteristiques();
     }
 
-    return 1;
+    return listeFigure[0];
 }

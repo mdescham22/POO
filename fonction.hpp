@@ -7,6 +7,6 @@
 #include "TriangleEquilateral.hpp"
 #include "Cercle.hpp"
 
-int test(void);
+Figure* test(void);
 
 #endif

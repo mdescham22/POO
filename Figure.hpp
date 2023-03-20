@@ -9,10 +9,12 @@ class Figure
     
     virtual int perimetre(void)=0;
     virtual void afficherCaracteristiques(void)=0;
+    void nbFigure(void);
 
     Figure();
 
     protected:
+    static int m_cpt;
 
 };
 
